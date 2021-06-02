@@ -1,0 +1,37 @@
+
+.logo{
+    margin-left: 1rem;
+    background-image: url('/src/images/123.png');
+}
+.head{
+    height: 60px;
+    border-bottom: 2px solid #0c0c0c;
+}
+.userheader{
+    font-size: 25px;
+}
+.head{
+    display: flex;
+}
+.nav-t{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+}
+.linkarea{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bt1{
+    width: 6rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 0px ;
+    width: 150px;
+    height: 40px;
+    color: honeydew;
+    margin-right: 1rem;
+}
+
