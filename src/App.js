@@ -1,9 +1,11 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Dashboard from './components/Dashboard'
-import LogIn from './components/LogIn'
+import Dashboard from './Page/Dashboard'
+import LogIn from './Page/LogIn'
 import { AuthProvider } from './components/Auth'
-import Navbar from './components/Navbar'
+import User from './Page/User'
+import AddUser from './Page/Header'
+
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={LogIn} />
           <Route exact path="/dashboard" component={Dashboard} />
-          <Route exact path="/Navbar" component={Navbar} />
+          <Route exact path="/user" component={User} />
+          <Route exact path="/AddUser" component={AddUser} />
         </Switch>
       </Router>
     </AuthProvider>
