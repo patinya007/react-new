@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './Header'
-class AddUser extends Component {
-    render() {
-        return (
-            <div className='AddUser'>
-                <Header />
-            </div>
-        )
-    }
+import '../Page/AddUser.css'
+import Crud from './CRUD'
+
+
+
+function AddUser() {
+   
+    return (
+        <div className='AddUser'>
+            <Header />
+            <Crud />
+        </div>
+    )
 }
 
 export default AddUser;

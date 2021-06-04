@@ -4,7 +4,7 @@ import Dashboard from './Page/Dashboard'
 import LogIn from './Page/LogIn'
 import { AuthProvider } from './components/Auth'
 import User from './Page/User'
-import AddUser from './Page/Header'
+import AddUser from './Page/AddUser'
 
 
 function App() {

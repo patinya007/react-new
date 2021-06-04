@@ -12,14 +12,14 @@ const Header = () => {
     return (
         <>
             <div className='head'>
-            <div className='logo'>
-                <img src={logo} />
-            </div>
-            <div className='linkarea'>
-                <div className="buttonsignout">
-                    <button onClick={() => firebaseConfig.auth().signOut()} class="bt1">ออกจากระบบ</button>
+                <div className='logo'>
+                    <img src={logo} />
                 </div>
-            </div>
+                <div className='linkarea'>
+                    <div className="buttonsignout">
+                        <button onClick={() => firebaseConfig.auth().signOut()} class="bt1">ออกจากระบบ</button>
+                    </div>
+                </div>
             </div>
             <div className="sidebar">
                 <ul className="SidebarList">
@@ -28,9 +28,7 @@ const Header = () => {
                             <li
                                 key={key}
                                 className="row"
-                                onClick={() => {
-                                    window.location.pathname = val.link;
-                                }}
+                                onClick={() => {window.location.pathname = val.link}}
                             >
                                 <div id="icon">{val.icon}</div>
                                 <div id="title">{val.title}</div>
@@ -39,7 +37,7 @@ const Header = () => {
                     })}
                 </ul>
             </div>
-            </>
+        </>
     )
 }
 export default Header;

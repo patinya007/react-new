@@ -17,7 +17,7 @@ class User extends Component {
                     <div className='buttonadd'>
                         <Link to='/AddUser'>
                             <button className='btn' type='button'>เพิ่มข้อมูล</button>
-                        </Link>
+                        </Link>  
                     </div>               
                 </div>
             </div>

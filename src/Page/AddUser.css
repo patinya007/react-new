@@ -1,0 +1,8 @@
+.btn-sub{
+    width: 80px;
+}
+.from-user{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
